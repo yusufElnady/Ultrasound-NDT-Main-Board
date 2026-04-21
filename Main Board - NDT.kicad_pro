@@ -517,8 +517,8 @@
       },
       {
         "bus_width": 20,
-        "diff_pair_gap": 0.2032,
-        "diff_pair_width": 0.3574,
+        "diff_pair_gap": 0.4,
+        "diff_pair_width": 0.113,
         "line_style": 0,
         "name": "RF Signals",
         "pcb_color": "rgba(0, 0, 0, 0.000)",

@@ -137,6 +137,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 105.41) (xy 177.8 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b173f046-111b-47ee-9467-f953815d41f1")
+	)
+	(wire
+		(pts
 			(xy 76.2 132.08) (xy 101.6 132.08)
 		)
 		(stroke
@@ -290,7 +300,7 @@
 	)
 	(sheet
 		(at 177.8 76.2)
-		(size 25.4 25.4)
+		(size 25.4 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -314,7 +324,7 @@
 			)
 		)
 		(property "Sheetfile" "RF.kicad_sch"
-			(at 177.8 102.1846 0)
+			(at 177.8 108.5346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -375,6 +385,16 @@
 		(pin "RF_PA_P" bidirectional
 			(at 177.8 87.63 180)
 			(uuid "737a8a99-a0e2-4914-903a-303fcc505521")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RF_RX_TX" input
+			(at 177.8 105.41 180)
+			(uuid "5db559b4-f5c6-4f79-88a7-3f424bf95a4b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -581,6 +601,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "RF_RX_TX" output
+			(at 152.4 105.41 0)
+			(uuid "1c9cf2ba-5a10-438e-8c53-88844ea60f7f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
